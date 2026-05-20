@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b0b0b;
+    color: #f2f2f2;
+}
+
+header {
+    background: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #8b0000;
+}
+
+header h1 {
+    margin: 0;
+    color: #d4af37;
+    font-size: 36px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #111;
+}
+
+.hero h2 {
+    font-size: 42px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.hero img {
+    width: 500px;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #8b0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #b30000;
+}
+
+.factions {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #1a1a1a;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid #8b0000;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h2 {
+    color: #d4af37;
+}
+
+.card p {
+    padding: 0 15px 20px;
+    color: #cccccc;
+    line-height: 1.5;
+}
+
+.lore {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 20px;
+    line-height: 1.8;
+    color: #d6d6d6;
+}
+
+.lore h2 {
+    color: #d4af37;
+    font-size: 38px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.lore p {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.gallery {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 40px;
+
+    padding: 60px;
+
+    justify-items: center;
+}
+
+.gallery-card {
+    text-align: center;
+}
+
+.gallery-card img {
+    width: 260px;
+    height: 260px;
+
+    object-fit: cover;
+
+    border-radius: 25px;
+
+    background: gray;
+
+    transition: 0.3s;
+}
+
+.gallery-card img:hover {
+    transform: scale(1.05);
+
+    border: 3px solid #d4af37;
+}
+
+.gallery-card p {
+    margin-top: 15px;
+
+    font-size: 22px;
+
+    color: white;
+}
+
